@@ -1,0 +1,19 @@
+.page-nav {
+  height: 4rem;
+  background-color: rgb(15, 15, 15);
+
+  .nav-brand {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .nav-2 {
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding-left: 5%;
+    &:hover {
+      color: orange;
+    }
+  }
+}
