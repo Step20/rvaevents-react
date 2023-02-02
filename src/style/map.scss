@@ -1,0 +1,19 @@
+.map-group {
+  height: 100vh;
+  h1 {
+    font-weight: 700;
+    font-size: 4rem;
+  }
+  .map-content {
+    .map-img {
+      margin-left: 7%;
+      border-radius: 2rem;
+    }
+    p {
+      text-align: center;
+    }
+    .inline-block {
+      display: inline-block;
+    }
+  }
+}

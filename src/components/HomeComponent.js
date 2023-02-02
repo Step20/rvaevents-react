@@ -1,17 +1,28 @@
 import React from "react";
-
+import { IoIosArrowDown } from "react-icons/io";
 import { Container, Row, Col, Button } from "reactstrap";
 import home1 from "../assets/img/home1.jpg";
 import home2 from "../assets/img/home2.jpg";
 import home3 from "../assets/img/home3.jpg";
+import ScrollToTop from "react-scroll-to-top";
+import { Link } from "react-scroll";
 
 export const Home = () => {
   return (
     <div>
       <Container fluid className="home-bg " id="home">
         <div className="home-group ">
-          <Row className="home-title">
-            <Col>
+          <ScrollToTop
+            smooth
+            style={{
+              width: "4rem",
+              height: "4rem",
+              borderRadius: "10px",
+            }}
+            className="back-top"
+          />
+          <Row>
+            <Col className="home-text">
               <h1>Join the Community</h1>
               <br></br>
               <h1>to stay connected to yours.</h1>
@@ -21,13 +32,27 @@ export const Home = () => {
             <Col>
               <p>
                 is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been
+                Lorem Ipsum has been is
               </p>
             </Col>
           </Row>
           <Row>
-            <Col className="home-btn">
-              <Button>Join the Community</Button>
+            <Col>
+              <Button className="home-btn mt-4">Start Here!</Button>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                ignoreCancelEvents={true}
+              >
+                <IoIosArrowDown className="home-arrow " />
+              </Link>
             </Col>
           </Row>
         </div>

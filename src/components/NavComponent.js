@@ -19,11 +19,11 @@ export const PageNav = () => {
 
   return (
     <div>
-      <Container fluid>
+      <Container>
         <Navbar color="white" light expand="sm" className="page-nav fixed-top ">
           <NavbarBrand className="p-5 nav-brand" href="/">
             <h1>
-              <span style={{ color: "orange" }}>rva</span>events
+              <span className="nb-text">rva</span>events
             </h1>
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />
@@ -53,12 +53,30 @@ export const PageNav = () => {
                   <NavLink>About</NavLink>
                 </NavItem>
               </Link>
-              <NavItem className="mx-5">
-                <NavLink>Projects</NavLink>
-              </NavItem>
-              <NavItem className="mx-5">
-                <NavLink>Resume</NavLink>
-              </NavItem>{" "}
+              <Link
+                to="events"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                ignoreCancelEvents={true}
+              >
+                <NavItem className="mx-5">
+                  <NavLink>Events</NavLink>
+                </NavItem>
+              </Link>
+              <Link
+                to="map"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                ignoreCancelEvents={true}
+              >
+                <NavItem className="mx-5">
+                  <NavLink>Map</NavLink>
+                </NavItem>
+              </Link>
             </Nav>
           </Collapse>
         </Navbar>

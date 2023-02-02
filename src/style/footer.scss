@@ -1,0 +1,44 @@
+.footer-group {
+  height: 62vh;
+  background: -webkit-linear-gradient(-95deg, #000000, #1c1c1c);
+  -webkit-animation: Animation 5s ease infinite;
+  -moz-animation: Animation 5s ease infinite;
+  animation: Animation 5s ease infinite;
+  .ft-box-hold {
+    .ft-box {
+      margin-top: 7rem;
+
+      padding: 3rem 1rem 2rem 1rem;
+      border-radius: 2rem;
+      width: 85%;
+      background: -webkit-linear-gradient(-87deg, #ffa865, #ff9443, #ff7733);
+      -webkit-animation: Animation 5s ease infinite;
+      -moz-animation: Animation 5s ease infinite;
+      animation: Animation 5s ease infinite;
+      h2 {
+        font-weight: 700;
+      }
+      .ft-in {
+        width: 80%;
+      }
+    }
+  }
+  .ft-box2 {
+    color: white;
+    margin-top: 5rem;
+    margin-left: 5%;
+    .inline-block {
+      display: inline-block;
+    }
+    h2 {
+      opacity: 0.5;
+      font-weight: 700;
+      font-size: x-large;
+    }
+    li {
+      text-decoration: none;
+      list-style: none;
+      margin-bottom: 2.5rem;
+    }
+  }
+}

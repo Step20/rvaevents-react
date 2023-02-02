@@ -1,15 +1,22 @@
 .page-nav {
   height: 4rem;
   background-color: rgb(15, 15, 15);
-
+  border-bottom: 0.41px solid rgb(217, 217, 217);
   .nav-brand {
     &:hover {
-      opacity: 0.8;
+      opacity: 0.7;
+    }
+    .nb-text {
+      background: -webkit-linear-gradient(45deg, #ffbf8e, #ff7733);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
     }
   }
   .nav-2 {
     font-weight: 600;
     font-size: 1.1rem;
+
     cursor: pointer;
     padding-left: 5%;
     &:hover {

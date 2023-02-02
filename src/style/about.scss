@@ -1,0 +1,26 @@
+.about-group {
+  background-color: rgb(247, 247, 247);
+  height: 100vh;
+  .about-content {
+    padding-left: 9%;
+    padding-top: 4%;
+    justify-content: center;
+  }
+  img {
+    width: 90%;
+    height: 100%;
+    border-radius: 2rem;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 4rem;
+  }
+  h4 {
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  p {
+    font-size: x-large;
+    line-height: 2.2rem;
+  }
+}

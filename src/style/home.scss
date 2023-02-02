@@ -6,6 +6,55 @@
   height: 100vh;
 
   .home-group {
-    padding-top: 20%;
+    padding-top: 21%;
+    padding-left: 5%;
+    color: white;
+    .back-top {
+      border: 1px solid rgb(224, 224, 224);
+    }
+    .home-text {
+      h1 {
+        font-size: 4rem;
+        font-weight: 800;
+        line-height: 3rem;
+      }
+      p {
+        line-height: 5rem;
+        font-size: larger;
+        opacity: 0.8;
+      }
+    }
+    .home-btn {
+      height: 130%;
+      width: 23%;
+      border-radius: 1rem;
+      border: 0.1px solid #ff7733;
+      background: -webkit-linear-gradient(-87deg, #ffa865, #ff9443, #ff7733);
+      -webkit-animation: Animation 5s ease infinite;
+      -moz-animation: Animation 5s ease infinite;
+      animation: Animation 5s ease infinite;
+      font-weight: 600;
+      font-size: 2rem;
+      margin-top: 0.5rem;
+      &:hover {
+        font-weight: 700;
+        border: 0.1px solid white;
+        background: rgba(0, 0, 0, 0.5);
+
+        -webkit-animation: Animation 5s ease infinite;
+        -moz-animation: Animation 5s ease infinite;
+        animation: Animation 5s ease infinite;
+      }
+    }
+    .home-arrow {
+      font-size: 4rem;
+      margin-top: 8.5%;
+      margin-left: 45%;
+
+      cursor: pointer;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
   }
 }
