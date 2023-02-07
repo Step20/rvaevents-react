@@ -4,10 +4,10 @@
 @import "bar";
 @import "map";
 @import "footer";
+@import "explore";
 @import "nav";
 
 body {
-  font-family: "Work Sans", sans-serif;
   height: 100vh;
   overflow-x: hidden;
 }
@@ -26,13 +26,13 @@ body {
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgb(220, 220, 220);
+    background: rgb(215, 215, 215);
     border-radius: 10px;
     border: 5px solid white;
   }
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(220, 220, 220);
+    background: rgb(200, 200, 200);
   }
 }

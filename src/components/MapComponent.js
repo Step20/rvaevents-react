@@ -12,15 +12,17 @@ export const Map = () => {
         </Row>
         <Row className="map-content ">
           <Col className="">
-            <img
-              className="map-img mt-5"
-              src="https://picsum.photos/1150/480"
-            />
+            <a href="/explore">
+              <img
+                className="map-img mt-5"
+                src="https://picsum.photos/1150/480"
+              />
+            </a>
             <div className="text-center mt-2">
               <p class="inline-block mx-1">
                 Lorem ipsum dolor sit amet or consectetur adipisicing click{" "}
               </p>
-              <a href="" class="inline-block">
+              <a href="/explore" class="inline-block">
                 here
               </a>
             </div>

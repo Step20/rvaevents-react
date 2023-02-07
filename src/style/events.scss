@@ -36,3 +36,87 @@
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .events-group {
+    height: 135vh;
+    h1 {
+      font-weight: 700;
+      font-size: 4rem;
+    }
+    .events-btn {
+      height: 80%;
+      width: 45%;
+      border-radius: 1rem;
+      border: 0.1px solid #ff7733;
+      background: -webkit-linear-gradient(-87deg, #ffa865, #ff9443, #ff7733);
+      -webkit-animation: Animation 5s ease infinite;
+      -moz-animation: Animation 5s ease infinite;
+      animation: Animation 5s ease infinite;
+      font-weight: 600;
+      font-size: 2rem;
+      margin-top: 7%;
+      margin-left: 26%;
+      &:hover {
+        font-weight: 700;
+        color: black;
+        border: 0.9px solid rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0);
+
+        -webkit-animation: Animation 5s ease infinite;
+        -moz-animation: Animation 5s ease infinite;
+        animation: Animation 5s ease infinite;
+      }
+    }
+    .events-content {
+      // width: 90%;
+
+      margin-left: 7.5%;
+      .events-card {
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .events-group {
+    height: 310vh;
+
+    h1 {
+      font-weight: 700;
+      font-size: 4rem;
+    }
+    .events-btn {
+      height: 80%;
+      width: 67%;
+      border-radius: 1rem;
+      border: 0.1px solid #ff7733;
+      background: -webkit-linear-gradient(-87deg, #ffa865, #ff9443, #ff7733);
+      -webkit-animation: Animation 5s ease infinite;
+      -moz-animation: Animation 5s ease infinite;
+      animation: Animation 5s ease infinite;
+      font-weight: 600;
+      font-size: 1.5rem;
+      margin-top: 5%;
+      margin-left: 14%;
+      &:hover {
+        font-weight: 700;
+        color: black;
+        border: 0.9px solid rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0);
+
+        -webkit-animation: Animation 5s ease infinite;
+        -moz-animation: Animation 5s ease infinite;
+        animation: Animation 5s ease infinite;
+      }
+    }
+    .events-content {
+      // width: 90%;
+
+      margin-left: 12%;
+      .events-card {
+        margin-top: 1rem;
+      }
+    }
+  }
+}

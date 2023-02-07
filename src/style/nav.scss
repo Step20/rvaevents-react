@@ -1,8 +1,9 @@
 .page-nav {
-  height: 4rem;
   background-color: rgb(15, 15, 15);
   border-bottom: 0.41px solid rgb(217, 217, 217);
+  width: 100%;
   .nav-brand {
+    padding-left: 4rem;
     &:hover {
       opacity: 0.7;
     }
@@ -18,9 +19,35 @@
     font-size: 1.1rem;
 
     cursor: pointer;
-    padding-left: 5%;
+    padding-left: 12%;
     &:hover {
       color: orange;
+    }
+  }
+}
+.ex-page-nav {
+  background-color: rgb(15, 15, 15);
+  border-bottom: 0.41px solid rgb(217, 217, 217);
+  .ex-nav-brand {
+    &:hover {
+      opacity: 0.7;
+    }
+    .ex-nb-text {
+      background: -webkit-linear-gradient(45deg, #ffbf8e, #ff7733);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
+      margin-left: 24rem;
+    }
+  }
+  .nav-2 {
+    font-weight: 600;
+    font-size: 1.1rem;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 1%;
+    &:hover {
+      color: #00164d;
     }
   }
 }

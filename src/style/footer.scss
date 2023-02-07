@@ -1,5 +1,5 @@
 .footer-group {
-  height: 62vh;
+  height: 100%;
   background: -webkit-linear-gradient(-95deg, #000000, #1c1c1c);
   -webkit-animation: Animation 5s ease infinite;
   -moz-animation: Animation 5s ease infinite;
@@ -19,14 +19,15 @@
         font-weight: 700;
       }
       .ft-in {
-        width: 80%;
+        width: 83%;
       }
     }
   }
   .ft-box2 {
     color: white;
     margin-top: 5rem;
-    margin-left: 5%;
+
+    margin-left: 3%;
     .inline-block {
       display: inline-block;
     }

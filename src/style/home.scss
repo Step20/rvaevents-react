@@ -58,3 +58,241 @@
     }
   }
 }
+
+@media only screen and (max-width: 1100px) {
+  .home-bg {
+    .home-group {
+      padding-top: 25%;
+      padding-left: 4%;
+      .back-top {
+      }
+      .home-text {
+        h1 {
+          font-size: 3.5rem;
+          font-weight: 800;
+          line-height: 2rem;
+        }
+        p {
+          line-height: 5rem;
+          font-size: larger;
+          opacity: 0.8;
+        }
+      }
+      .home-btn {
+        height: 130%;
+        width: 23%;
+        font-weight: 600;
+        font-size: 2rem;
+        margin-top: 0rem;
+        &:hover {
+          font-weight: 700;
+          border: 0.1px solid white;
+          background: rgba(0, 0, 0, 0.5);
+        }
+      }
+      .home-arrow {
+        font-size: 4rem;
+        margin-top: 12.5%;
+        margin-left: 45%;
+
+        cursor: pointer;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .home-bg {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 10.42%, #000000 100%),
+      url("../assets/img/home1.jpg");
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    .home-group {
+      padding-top: 38%;
+      padding-left: 4%;
+      .back-top {
+      }
+      .home-text {
+        h1 {
+          font-size: 2.8rem;
+          font-weight: 800;
+          line-height: 1rem;
+        }
+        p {
+          line-height: 5rem;
+          font-size: medium;
+          opacity: 0.8;
+        }
+      }
+      .home-btn {
+        height: 110%;
+        width: 30%;
+        font-weight: 600;
+        font-size: 2rem;
+        margin-top: 0rem;
+        &:hover {
+          font-weight: 700;
+          border: 0.1px solid white;
+          background: rgba(0, 0, 0, 0.5);
+        }
+      }
+      .home-arrow {
+        font-size: 4rem;
+        margin-top: 12.5%;
+        margin-left: 45%;
+
+        cursor: pointer;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .home-bg {
+    .home-group {
+      padding-top: 50%;
+      padding-left: 4%;
+      .back-top {
+      }
+      .home-text {
+        h1 {
+          font-size: 2.3rem;
+          font-weight: 800;
+          line-height: 1rem;
+        }
+        p {
+          line-height: 5rem;
+          font-size: small;
+          opacity: 0.8;
+        }
+      }
+      .home-btn {
+        height: 100%;
+        width: 30%;
+        font-weight: 600;
+        font-size: 1.9rem;
+        margin-top: 0rem;
+        &:hover {
+          font-weight: 700;
+          border: 0.1px solid white;
+          background: rgba(0, 0, 0, 0.5);
+        }
+      }
+      .home-arrow {
+        font-size: 4rem;
+        margin-top: 14.5%;
+        margin-left: 45%;
+
+        cursor: pointer;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home-bg {
+    height: 90vh;
+    .home-group {
+      padding-top: 65%;
+      padding-left: 4%;
+      .back-top {
+      }
+      .home-text {
+        h1 {
+          font-size: 1.8rem;
+          font-weight: 800;
+          line-height: 1rem;
+        }
+        p {
+          line-height: 3.4rem;
+          font-size: x-small;
+          opacity: 0.8;
+        }
+      }
+      .home-btn {
+        height: 100%;
+        width: 34%;
+        font-weight: 600;
+        font-size: 1.6rem;
+        margin-top: 0rem;
+        &:hover {
+          font-weight: 700;
+          border: 0.1px solid white;
+          background: rgba(0, 0, 0, 0.5);
+        }
+      }
+      .home-arrow {
+        font-size: 4rem;
+        margin-top: 16.5%;
+        margin-left: 34%;
+
+        cursor: pointer;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .home-bg {
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 10.42%, #000000 100%),
+      url("../assets/img/home1.jpg");
+    background-repeat: no-repeat;
+    background-size: 220% 100%;
+    .home-group {
+      padding-top: 80%;
+      padding-left: 4%;
+      .back-top {
+      }
+      .home-text {
+        h1 {
+          width: 62%;
+          font-size: 2.5rem;
+          font-weight: 800;
+          line-height: 2rem;
+        }
+        p {
+          margin-top: 1rem;
+          font-size: x-small;
+          opacity: 0.8;
+          width: 70%;
+          line-height: 1.2rem;
+        }
+      }
+      .home-btn {
+        height: 80%;
+        width: 50%;
+        font-weight: 600;
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        &:hover {
+          font-weight: 700;
+          border: 0.1px solid white;
+          background: rgba(0, 0, 0, 0.5);
+        }
+      }
+      .home-arrow {
+        font-size: 5rem;
+        margin-top: 30.5%;
+        margin-left: 35%;
+
+        cursor: pointer;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}

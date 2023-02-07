@@ -7,8 +7,8 @@ export const About = () => {
     <div>
       <Container fluid id="about" className="about-group ">
         <Row>
-          <Col className="text-center p-5 mt-3 ">
-            <h1>About</h1>
+          <Col className="text-center  mt-4">
+            <h1 className="mt-5 mb-5">About</h1>
           </Col>
         </Row>
         <Row className="about-content ">

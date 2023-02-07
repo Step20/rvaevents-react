@@ -4,6 +4,12 @@ import { Container, Row, Col, Button } from "reactstrap";
 import home1 from "../assets/img/home1.jpg";
 import home2 from "../assets/img/home2.jpg";
 import home3 from "../assets/img/home3.jpg";
+import { About } from "./AboutComponent";
+import { PageNav } from "./NavComponent";
+import { Events } from "./EventsComponent";
+import { Bar } from "./BarComponent";
+import { Map } from "./MapComponent";
+import { Footer } from "./FooterComponent";
 import ScrollToTop from "react-scroll-to-top";
 import { Link } from "react-scroll";
 
@@ -38,7 +44,16 @@ export const Home = () => {
           </Row>
           <Row>
             <Col>
-              <Button className="home-btn mt-4">Start Here!</Button>
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                ignoreCancelEvents={true}
+              >
+                <Button className="home-btn ">Start Here!</Button>
+              </Link>
             </Col>
           </Row>
           <Row>
@@ -56,7 +71,12 @@ export const Home = () => {
             </Col>
           </Row>
         </div>
-      </Container>
+      </Container>{" "}
+      <About />
+      <Events />
+      <Bar />
+      <Map />
+      <Footer />
     </div>
   );
 };

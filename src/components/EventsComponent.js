@@ -189,7 +189,19 @@ export const Events = () => {
         </Row>
         <Row>
           <Col className="mt-2">
-            <Button className="events-btn mt-5">All Recent Events</Button>
+            <Link
+              to="/explore"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              ignoreCancelEvents={true}
+            >
+              {" "}
+              <Button className="events-btn mt-5">
+                All Recent Events
+              </Button>{" "}
+            </Link>
           </Col>
         </Row>
       </Container>
